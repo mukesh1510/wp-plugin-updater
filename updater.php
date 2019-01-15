@@ -137,7 +137,7 @@ class WP_GitHub_Updater {
 		if ( ! isset( $this->config['homepage'] ) )
 			$this->config['homepage'] = $plugin_data['PluginURI'];
 		if ( ! isset( $this->config['readme'] ) )
-			$this->config['readme'] = 'README.md';
+			$this->config['readme'] = 'README.txt';
 	}
 	/**
 	 * Callback fn for the http_request_timeout filter
