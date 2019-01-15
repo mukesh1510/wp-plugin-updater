@@ -24,8 +24,8 @@ function github_plugin_updater_test_init() {
          'sslverify' => true,
          'requires' => '1.0',
          'tested' => '5.0',
-         'readme' => 'README.md',
-         'access_token' => '',
+         'readme' => 'readme.txt',
+         'access_token' => 'b3f8cc84b41bc9c381f8647c2a7491312e1acdb3',
       );
       new WP_GitHub_Updater( $config );
    }
