@@ -16,7 +16,7 @@ function github_plugin_updater_test_init() {
    if ( is_admin() ) { // note the use of is_admin() to double check that this is happening in the admin
       $config = array(
          'slug' => plugin_basename( __FILE__ ),
-         'proper_folder_name' => 'github-updater',
+         'proper_folder_name' => 'wp-plugin-updater',
          'api_url' => 'https://api.github.com/repos/mukesh1510/wp-plugin-updater',
          'raw_url' => 'https://raw.github.com/mukesh1510/wp-plugin-updater/master',
          'github_url' => 'https://github.com/mukesh1510/wp-plugin-updater',
