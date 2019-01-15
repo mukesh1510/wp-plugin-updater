@@ -3,8 +3,6 @@
 if ( ! defined( 'ABSPATH' ) || class_exists( 'WPGitHubUpdater' ) || class_exists( 'WP_GitHub_Updater' ) )
 	return;
 /**
- *
- *
  * @version 1.6
  * @author Joachim Kudish <info@jkudish.com>
  * @link http://jkudish.com
@@ -137,7 +135,7 @@ class WP_GitHub_Updater {
 		if ( ! isset( $this->config['homepage'] ) )
 			$this->config['homepage'] = $plugin_data['PluginURI'];
 		if ( ! isset( $this->config['readme'] ) )
-			$this->config['readme'] = 'README.txt';
+			$this->config['readme'] = 'readme.txt';
 	}
 	/**
 	 * Callback fn for the http_request_timeout filter
