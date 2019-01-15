@@ -22,9 +22,9 @@ function github_plugin_updater_test_init() {
          'github_url' => 'https://github.com/mukesh1510/wp-plugin-updater',
          'zip_url' => 'https://github.com/mukesh1510/wp-plugin-updater/archive/master.zip',
          'sslverify' => true,
-         'requires' => '1.0',
+         'requires' => '4.0',
          'tested' => '5.0',
-         'readme' => 'readme.txt',
+         'readme' => 'README.md',
          'access_token' => 'b3f8cc84b41bc9c381f8647c2a7491312e1acdb3',
       );
       new WP_GitHub_Updater( $config );
