@@ -3,7 +3,7 @@
    Plugin Name: test
    Plugin URI: 
    description: 
-   Version: 2.0
+   Version: 3.0
    Author: 
    Author URI: 
    License: GPL2
